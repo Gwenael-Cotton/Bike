@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Druk Wide";
+    src: url("./font/29800a9e7d146302b8ed9ad2f848db63.eot");
+    /* IE9*/
+    src: url("./font/29800a9e7d146302b8ed9ad2f848db63.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("./font/29800a9e7d146302b8ed9ad2f848db63.woff2") format("woff2"),
+        /* chrome、firefox */
+        url("./font/29800a9e7d146302b8ed9ad2f848db63.woff") format("woff"),
+        /* chrome、firefox */
+        url("./font/29800a9e7d146302b8ed9ad2f848db63.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("./font/29800a9e7d146302b8ed9ad2f848db63.svg#Druk Wide Web Bold Regular") format("svg");
+    /* iOS 4.1- */
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #060507;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    height: 100px;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.header .header-logo {
+    display: flex;
+}
+
+.header .header-logo .header-logo-icon {
+    width: 285px;
+    height: 45px;
+    margin-right: 70px;
+}
+
+.header .header-nav {
+    display: flex;
+}
+
+.header .header-nav .header-nav-item {
+    padding-right: 70px;
+    padding-left: 70px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Druk Wide";
+    line-height: 183%;
+    color: #fff;
+}
+
+.moto-container {
+    display: flex;
+}
+
+.moto-container-logo {
+    position: absolute;
+        width: 183.28px;
+        height: 177.41px;
+        left: 854px;
+        top: 153px;
+        animation-name: spin;
+            animation-duration: 20000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+}
+
+.moto-container-photo1 {
+    margin-right: 70px;
+}
+
+.moto-container-photo2 {
+    opacity: 0.83;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.sidebar {
+    position: absolute;
+    right: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "montserrat";
+    font-size: 14px;
+}
+
+.sidebar-item {
+ display: flex;
+ height: 200px;
+ padding-bottom: 30px;
+}
+
+.sidebar-item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sidebar-item-description-big {
+    font-family: "Druk Wide";
+    font-size: 26px;
+}
+
+.sidebar-item-title {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-right: 40px;
+    opacity: 0.30;
+    text-align: center;
+}
+
+.svg {
+    position: absolute;
+        top: 669px;
+        width: 1350px;
+}
